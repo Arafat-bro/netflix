@@ -1,0 +1,64 @@
+/* .banner{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: aliceblue;
+    position: absolute;
+    background-image:linear-gradient(to top,rgba(0,0,0,1.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,1.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/45e6f443-8eff-4c7b-ba24-fbdc84c37718/131da63a-f63c-41c1-91c0-e1ebdb07dec5/BD-en-20210927-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-image: url(images/banner.jpg);
+} */
+.banner{
+    height: 448px;
+    color: white;
+    position: relative;
+    object-fit: contain;
+}
+
+
+.banner__contents{
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 330px;
+}
+.banner__title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.banner__description{
+    
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    max-width: 360px;
+    height: 80px;
+    
+} 
+
+ .banner__button{
+    background: rgba(56, 53, 53, 0.425);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.4rem 2rem;
+    margin-right: 1rem;
+}
+.banner__button:hover{
+    color: red;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+.banner__fadeBottom{
+    position: relative;
+    /* top:9rem; */
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
